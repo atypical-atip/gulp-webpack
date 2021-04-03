@@ -1,0 +1,49 @@
+{
+  "name": "new_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cli": "webpack ./app/js/index.js --output-path ./public/js --output-filename bundle.js --mode development --color --watch",
+    "build": "webpack --color --config webpack.prod.js",
+    "start": "webpack --color --watch --config webpack.dev.js",
+    "gulp": "gulp"
+  },
+  "author": "Oleksii Dovbakh",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "autoprefixer": "^9.7.4",
+    "babel-loader": "^8.0.6",
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-css-url-fix": "0.0.1",
+    "gulp-debug": "^4.0.0",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-newer": "^1.4.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-resolve-url": "0.0.2",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-svg-sprite": "^1.5.0",
+    "node-sass-tilde-importer": "^1.0.2",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-merge": "^4.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "gulp-cheerio": "^1.0.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-svgmin": "^2.2.0",
+    "normalize.css": "^8.0.1"
+  }
+}
