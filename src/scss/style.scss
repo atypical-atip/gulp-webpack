@@ -1,0 +1,13 @@
+@import './base/variables';
+@import './base/mixins';
+@import '../../node_modules/normalize-scss/sass/normalize/import-now';
+@import './base/reset';
+@import './base/typography';
+@import './base/base';
+@import './components/navigation';
+@import './layout/header';
+@import './layout/footer';
+@import './layout/content';
+@import '../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss';
+@import '../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss';

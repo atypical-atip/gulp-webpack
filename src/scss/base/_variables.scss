@@ -1,0 +1,8 @@
+$fa-font-path: "../fonts/font-awesome/" !default;
+$color-yellow: #FEDA51;
+$color-link-primary: #681416;
+// px to rem
+@function rem-calc($size) {
+    $remSize: $size / 16;
+    @return #{$remSize}rem;
+}
